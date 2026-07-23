@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "mybucket" {
-  bucket = "keerthan04-secueity4406-{{github.run_id}}"
+  bucket = "keerthan04-security4406-{{github.run_id}}"
 }
